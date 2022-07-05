@@ -76,46 +76,16 @@
   <!-- Hardware-Qcom-->
   <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="xpe">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.0-caf-msm8996" remote="xpe" />
-  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="xpe-15.0-caf-sdm660" remote="xpe" />
-  <project path="hardware/qcom-caf/sdm660/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-15.0-caf-sdm660" remote="xpe" />
-  <project path="hardware/qcom-caf/sdm660/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="xpe-15.0-caf-sdm660" remote="xpe" />
   <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="xpe-16.0-caf-sm8150" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8150/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.0-caf-sm8150" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8150/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="xpe-16.0-caf-sm8150" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="xpe-16.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8250/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8250/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="xpe-16.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.1-caf-sm8350" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" remote="xpe" />
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="xpe" revision="xpe-16.1-caf-L" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" />
@@ -217,7 +187,7 @@
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="TheXPerienceProject/vendor_qcom-opensource_wfd-commonsys" remote="xpe" />
 
   <!--Vendor-->
-  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="rw55" />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="mario" clone-depth="1" revision="12" />
   <project path="vendor/gapps" name="klozz/vendor_gapps" remote="gitlab" revision="xpe-16.1-caf-L" clone-depth="1" />

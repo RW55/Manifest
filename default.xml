@@ -20,6 +20,11 @@
   <default revision="refs/tags/LA.QSSI.12.0.r1-07600-qssi.0"
            remote="caf_system" />
 
+  <remote  name="rw55"
+           fetch="https://github.com/RW55"
+           revision="xpe-16.1-caf-L" />
+
+
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch=".."
